@@ -1,27 +1,90 @@
-body, *{
+body,
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lexend', sans-serif;
 }
 
 /* header section start */
-.header nav{
+.header nav {
     display: flex;
     justify-content: space-between;
     padding: 30px 100px;
+    align-items: center;
 }
 
-.header nav ul{
+.header nav h3 {
+    color: #032027;
+    font-size: 30px;
+}
+
+.header nav button {
+    border: none;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: #08C573;
+    border: 2px solid #08C573;
+    color: #fff;
+    transition: all .6s linear;
+    font-weight: bold;
+}
+
+.header nav button:hover{
+    cursor: pointer;
+    background: none;
+    border: 2px solid #08C573;
+    color: #08C573;
+}
+
+.header nav ul {
     display: flex;
 }
 
-.header nav ul li{
+.header nav ul li {
     list-style: none;
     padding: 0 40px;
 }
 
-.header nav ul li a{
+.header nav ul li a {
     text-decoration: none;
     color: rgba(3, 32, 39, 0.70);
+}
+
+
+.header .header-banner{
+    background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%), url('../images/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px 100px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+.header .header-banner .header-detail{
+    padding: 50px 120px;
+    color: #fff;
+    width: 550px;
+}
+
+.header .header-banner .header-detail h2{
+    font-size: 64px;
+}
+
+.header .header-banner .header-detail p{
+    color: rgba(255, 255, 255, 0.80);
+    padding: 24px 0;
+    line-height: 30px;
+}
+
+.header .header-banner .header-detail button{
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background: #08C573;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 /* header section end */
