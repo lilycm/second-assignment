@@ -5,6 +5,10 @@ body,
     font-family: 'Lexend', sans-serif;
 }
 
+
+main{
+    margin: 0 100px;
+}
 /* header section start */
 .header nav {
     display: flex;
@@ -18,7 +22,7 @@ body,
     font-size: 30px;
 }
 
-.header nav button {
+.primary-btn{
     border: none;
     padding: 16px 20px;
     border-radius: 8px;
