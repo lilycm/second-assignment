@@ -118,7 +118,10 @@ main{
 }
 
 .about-section .about-detail .about-photo .img1{
-    z-index: 1;
+    background: url('../images/Polygon\ 1.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
 }
 
 
@@ -146,12 +149,4 @@ main{
 }
 
 
-
-
-.about-section .about-detail .about-photo .polygon{
-    position: absolute;
-    z-index: 3;
-    bottom: 100px;
-    left: -80px;
-}
 /* about section end */
