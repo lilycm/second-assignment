@@ -1,0 +1,27 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* header section start */
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.header nav ul{
+    display: flex;
+}
+
+.header nav ul li{
+    list-style: none;
+    padding: 0 40px;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: rgba(3, 32, 39, 0.70);
+}
+/* header section end */
