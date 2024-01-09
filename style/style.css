@@ -7,7 +7,7 @@ body,
 
 
 main{
-    margin: 0 100px;
+    padding: 0 100px;
 }
 /* header section start */
 .header nav {
@@ -100,3 +100,58 @@ main{
     cursor: pointer;
 }
 /* header section end */
+
+/* about section start */
+
+.about-section{
+    padding: 50px 100px;
+}
+
+
+.about-section .about-detail{
+    display: flex;
+    align-items: start;
+}
+
+.about-section .about-detail .about-photo{
+    position: relative;
+}
+
+.about-section .about-detail .about-photo .img1{
+    z-index: 1;
+}
+
+
+.about-section .about-detail .about-photo .img2{
+    background: #08C573;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -50px;
+    left: -80px;
+    z-index: 1;
+
+}
+
+.about-section .about-detail .about-photo .img2 span{
+    font-size: 40px;
+    display: block;
+}
+
+
+
+
+.about-section .about-detail .about-photo .polygon{
+    position: absolute;
+    z-index: 3;
+    bottom: 100px;
+    left: -80px;
+}
+/* about section end */
