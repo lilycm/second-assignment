@@ -230,7 +230,7 @@ main {
 }
 
 
-.service-link{
+.service-link {
     margin: 30px 0px 14px 0px;
     border-radius: 30px;
     border: 1px solid #08C573;
@@ -239,7 +239,8 @@ main {
     padding: 11px 25px;
     display: none;
 }
-.service-link a{
+
+.service-link a {
     text-decoration: none;
     color: #08C573;
     font-size: 20px;
@@ -274,7 +275,31 @@ main {
 /* service section end */
 
 
+/* company detail start */
+.company-details{
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+}
+.company-details .company-detail{
+    text-align: center;
+}
+.company-details .company-detail .detail-title{
+    color: #032027;
+    font-size: 64px;
+    font-weight: 700;
 
+}
+
+
+.company-details .company-detail p {
+    color: rgba(3, 32, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 7px;
+}
+
+/* company detail end */
 
 
 
@@ -363,31 +388,38 @@ main {
     .about-photo .img2 img {
         width: 50%;
     }
-
-
-    .service-section .service-title{
+    .service-section .service-title {
         text-align: left;
         padding: 20px;
     }
 
-    .service-section .service-title p{
+    .service-section .service-title p {
         width: 100%;
     }
 
-    .service-link{
+    .service-link {
         display: block;
         margin-bottom: 20px;
     }
 
-    .service-section .servcie-details{
+    .service-section .servcie-details {
         margin: 0px 10px 10px 10px;
         grid-template-columns: 1fr;
         gap: 5px;
     }
-    .service-section .servcie-details .service-photo img{
+
+    .service-section .servcie-details .service-photo img {
         width: 100%;
     }
-    .service-section .servcie-details .service-item p{
+
+    .service-section .servcie-details .service-item p {
         width: 100%;
+    }
+
+    .company-details, .company-detail{
+        flex-direction: column;
+    }
+    .company-details{
+        gap: 45px;
     }
 }
