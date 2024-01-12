@@ -6,9 +6,10 @@ body,
 }
 
 
-main{
+main {
     padding: 0 100px;
 }
+
 /* header section start */
 .header nav {
     display: flex;
@@ -22,7 +23,7 @@ main{
     font-size: 30px;
 }
 
-.primary-btn{
+.primary-btn {
     border: none;
     padding: 16px 20px;
     border-radius: 8px;
@@ -33,7 +34,7 @@ main{
     font-weight: bold;
 }
 
-.header nav button:hover{
+.header nav button:hover {
     cursor: pointer;
     background: none;
     border: 2px solid #08C573;
@@ -56,14 +57,14 @@ main{
     transition: all .8s ease-in-out;
 }
 
-.header nav ul li:hover>a{
+.header nav ul li:hover>a {
     background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%);
     padding: 10px 18px;
     color: #fff;
     border-radius: 10px;
 }
 
-.header .header-banner{
+.header .header-banner {
     background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%), url('../images/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -73,23 +74,23 @@ main{
     border-radius: 16px;
 }
 
-.header .header-banner .header-detail{
+.header .header-banner .header-detail {
     padding: 50px 120px 100px 120px;
     color: #fff;
     width: 550px;
 }
 
-.header .header-banner .header-detail h2{
+.header .header-banner .header-detail h2 {
     font-size: 64px;
 }
 
-.header .header-banner .header-detail p{
+.header .header-banner .header-detail p {
     color: rgba(255, 255, 255, 0.80);
     padding: 24px 0;
     line-height: 30px;
 }
 
-.header .header-banner .header-detail button{
+.header .header-banner .header-detail button {
     border: none;
     padding: 15px 25px;
     border-radius: 30px;
@@ -99,29 +100,32 @@ main{
     letter-spacing: 1px;
     cursor: pointer;
 }
+
 /* header section end */
 
 /* about section start */
 
-.about-section{
+.about-section {
     padding: 50px 100px;
 }
 
 
-.about-section .about-detail{
+.about-section .about-detail {
     display: flex;
     align-items: start;
+    gap: 50px;
 }
 
-.about-section .about-detail .about-photo{
+.about-section .about-detail .about-photo {
     position: relative;
 }
-.about-section .about-detail .about-photo .img1{
+
+.about-section .about-detail .about-photo .img1 {
     z-index: 5;
     position: relative;
 }
 
-.about-section .about-detail .about-photo .img2{
+.about-section .about-detail .about-photo .img2 {
     background: #08C573;
     text-align: center;
     width: 200px;
@@ -139,19 +143,35 @@ main{
 
 }
 
-.about-section .about-detail .about-photo .img2 span{
+.about-section .about-detail .about-photo .img2 span {
     font-size: 40px;
     display: block;
 }
 
-.about-section .about-detail .about-photo .img3 img{
-   position: absolute;
-   bottom: 120px;
-   left: -80px;
+.about-section .about-detail .about-photo .img3 img {
+    position: absolute;
+    bottom: 120px;
+    left: -80px;
+}
+
+.about-section .about-detail .about-info .span1 {
+    color: #08C573;
 }
 
 
+.about-section .about-detail .about-info h2{
+    color: #032027;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 16px 0px;
+}
 
+
+.about-section .about-detail .about-info h2 .span2{
+    color: #08C573;
+    font-size: 28px;
+    font-weight: 600;
+}
 /* about section end */
 
 
@@ -160,16 +180,18 @@ main{
 /* media query start for small device */
 
 @media screen and (max-width: 576px) {
-    .header{
+    .header {
         margin: 0 auto;
     }
-    .header nav, ul{
+
+    .header nav,
+    ul {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
-    .header .header-banner{
+    .header .header-banner {
         background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%), url('../images/bg1.jpg');
         background-position: center;
         background-repeat: no-repeat;
@@ -178,7 +200,8 @@ main{
         width: 100%;
         border-radius: 16px;
     }
-    .header .header-banner .header-detail{
+
+    .header .header-banner .header-detail {
         color: #fff;
         width: 100%;
         padding: 0;
