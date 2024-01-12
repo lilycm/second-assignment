@@ -50,21 +50,21 @@ main {
     padding: 10px 18px;
 }
 
-.header nav ul li a{
+.header nav ul li a {
     text-decoration: none;
     color: rgba(3, 32, 39, 0.70);
     padding: 10px 18px;
     transition: all .8s ease-in-out;
 }
 
-.header nav ul li:hover>a{
+.header nav ul li:hover>a {
     background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%);
     padding: 10px 18px;
     color: #fff;
     border-radius: 10px;
 }
 
-.header .header-banner{
+.header .header-banner {
     background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%), url('../images/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ main {
     padding: 16px 0px;
 }
 
-.span2{
+.span2 {
     color: #08C573;
     font-size: 28px;
     font-weight: 600;
@@ -179,7 +179,8 @@ main {
     gap: 24px;
 }
 
-.about-images .about-img1, .about-img2{
+.about-images .about-img1,
+.about-img2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,18 +214,41 @@ main {
 
 /* service section start */
 
-.service-section{
+.service-section {
     margin: 110px 0px;
 }
-.service-section .service-title h2{
+
+.service-section .service-title h2 {
     color: #032027;
     font-size: 28px;
     font-weight: 600;
     padding: 16px 0px;
 }
 
-.service-section .service-title p{
+.service-section .service-title p {
     width: 70%;
+}
+
+.service-section .servcie-details {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+
+.service-section .servcie-details .service-item{
+    padding: 30px;
+    border-radius: 8px;
+    background: rgba(3, 32, 39, 0.03);
+}
+
+#serv-phto{
+    grid-row: span 2;
+}
+
+.service-section .servcie-details .service-item h4{
+    padding: 15px 0px;
 }
 /* service section end */
 
@@ -269,12 +293,13 @@ main {
         padding: 20px;
         margin-top: 30px;
     }
-    .header .header-banner .header-detail h2{
+
+    .header .header-banner .header-detail h2 {
         width: 400px;
         font-size: 40px;
     }
 
-    .header .header-banner .header-detail p{
+    .header .header-banner .header-detail p {
         width: 350px;
         font-size: 16px;
     }
@@ -297,7 +322,7 @@ main {
         height: 100px;
     }
 
-    .about-detail .about-photo img{
+    .about-detail .about-photo img {
         width: 100%;
     }
 
@@ -314,7 +339,7 @@ main {
         padding: 20px;
     }
 
-    .about-photo .img2 img{
+    .about-photo .img2 img {
         width: 50%;
     }
 }
