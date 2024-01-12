@@ -50,21 +50,21 @@ main {
     padding: 10px 18px;
 }
 
-.header nav ul li a {
+.header nav ul li a{
     text-decoration: none;
     color: rgba(3, 32, 39, 0.70);
     padding: 10px 18px;
     transition: all .8s ease-in-out;
 }
 
-.header nav ul li:hover>a {
+.header nav ul li:hover>a{
     background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%);
     padding: 10px 18px;
     color: #fff;
     border-radius: 10px;
 }
 
-.header .header-banner {
+.header .header-banner{
     background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%), url('../images/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -166,16 +166,11 @@ main {
     padding: 16px 0px;
 }
 
-
-.about-section .about-detail .about-info h2 .span2 {
+.span2{
     color: #08C573;
     font-size: 28px;
     font-weight: 600;
 }
-
-
-
-
 
 .about-images {
     display: flex;
@@ -184,14 +179,12 @@ main {
     gap: 24px;
 }
 
-.about-images .about-img1,
-.about-img2 {
+.about-images .about-img1, .about-img2{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-
 
 .about-img1 {
     border-radius: 8px;
@@ -216,6 +209,27 @@ main {
 }
 
 /* about section end */
+
+
+/* service section start */
+
+.service-section{
+    margin: 110px 0px;
+}
+.service-section .service-title h2{
+    color: #032027;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 16px 0px;
+}
+
+.service-section .service-title p{
+    width: 70%;
+}
+/* service section end */
+
+
+
 
 
 
