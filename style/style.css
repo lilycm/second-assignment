@@ -307,12 +307,15 @@ main {
 /* company detail end */
 
 /* contact section start */
-.contact-sec {
+.contact-sec{
     border-radius: 16px;
     background: #032027;
     padding: 32px;
 }
-
+.contact-sec .border-div{
+    border: 1px dashed rgba(8, 197, 115, 0.50);
+    border-radius: 16px;
+}
 .contact-sec .contact-details {
     background-image: url('../images/Ellipse\ 1.png');
     background-repeat: no-repeat;
@@ -320,25 +323,23 @@ main {
     background-position: top center;
     display: flex;
     justify-content: space-evenly;
-    border-radius: 16px;
-    border: 1px dashed rgba(8, 197, 115, 0.50);
-    padding: 20px;
+    padding:50px;
 }
 
-.contact-sec .contact-details .contact-detail h4 {
+.contact-sec .contact-details .contact-detail h4{
     color: #08C573;
     font-size: 30px;
     font-weight: 600;
 }
 
-.contact-sec .contact-details .contact-detail p {
+.contact-sec .contact-details .contact-detail p{
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 400;
     padding: 16px 0px 20px 0px;
 }
 
-.contact-sec .contact-details .contact-detail span {
+.contact-sec .contact-details .contact-detail span{
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
@@ -351,6 +352,7 @@ main {
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 400;
+    padding: 20px 0px 32px 0px;
 }
 
 .number-btn{
@@ -368,8 +370,6 @@ main {
     padding: 0px 10px;
 
 }
-
-
 .contact-form h4{
     color: #FFF;
     font-size: 32px;
@@ -405,7 +405,19 @@ main {
 /* contact section end */
 
 
+/* footer sections start */
+footer{
+    margin-top: 110px;
+    background: rgba(3, 32, 39, 0.05);
+    padding: 110px 0px;
+}
 
+.footer-detail{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+/* footer sections end */
 
 
 
@@ -529,5 +541,14 @@ main {
 
     .company-details {
         gap: 45px;
+    }
+
+    .contact-details{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-details, .contact-form{
+        margin-top: 30px;
     }
 }
