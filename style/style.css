@@ -307,15 +307,17 @@ main {
 /* company detail end */
 
 /* contact section start */
-.contact-sec{
+.contact-sec {
     border-radius: 16px;
     background: #032027;
     padding: 32px;
 }
-.contact-sec .border-div{
+
+.contact-sec .border-div {
     border: 1px dashed rgba(8, 197, 115, 0.50);
     border-radius: 16px;
 }
+
 .contact-sec .contact-details {
     background-image: url('../images/Ellipse\ 1.png');
     background-repeat: no-repeat;
@@ -323,23 +325,23 @@ main {
     background-position: top center;
     display: flex;
     justify-content: space-evenly;
-    padding:50px;
+    padding: 50px;
 }
 
-.contact-sec .contact-details .contact-detail h4{
+.contact-sec .contact-details .contact-detail h4 {
     color: #08C573;
     font-size: 30px;
     font-weight: 600;
 }
 
-.contact-sec .contact-details .contact-detail p{
+.contact-sec .contact-details .contact-detail p {
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 400;
     padding: 16px 0px 20px 0px;
 }
 
-.contact-sec .contact-details .contact-detail span{
+.contact-sec .contact-details .contact-detail span {
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
@@ -355,7 +357,7 @@ main {
     padding: 20px 0px 32px 0px;
 }
 
-.number-btn{
+.number-btn {
     border: none;
     border-radius: 30px;
     background: #08C573;
@@ -366,17 +368,19 @@ main {
     cursor: pointer;
 }
 
-.contact-form, .contact-detail{
+.contact-form,
+.contact-detail {
     padding: 0px 10px;
 
 }
-.contact-form h4{
+
+.contact-form h4 {
     color: #FFF;
     font-size: 32px;
     font-weight: 600;
 }
 
-.contact-form form input{
+.contact-form form input {
     width: 90%;
     padding: 18px;
     margin: 15px 0px;
@@ -385,7 +389,7 @@ main {
     background: #102B32;
 }
 
-.contact-form form .contact-btn{
+.contact-form form .contact-btn {
     width: 90%;
     border-radius: 8px;
     border: 1px solid #08C573;
@@ -393,7 +397,8 @@ main {
     text-align: center;
     margin-top: 20px;
 }
-.contact-form form .contact-btn button{
+
+.contact-form form .contact-btn button {
     color: #08C573;
     font-size: 20px;
     font-weight: 600;
@@ -406,16 +411,43 @@ main {
 
 
 /* footer sections start */
-footer{
+footer {
     margin-top: 110px;
     background: rgba(3, 32, 39, 0.05);
     padding: 110px 0px;
 }
 
-.footer-detail{
+.footer-detail {
     text-align: center;
     width: 70%;
     margin: auto;
+}
+
+.footer-detail .comp1{
+    color: #032027;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer-detail .comp2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #08C573;
+}
+
+.footer-detail p{
+    padding: 16px 0px 30px 0px;
+}
+
+.footer-detail .smm-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 35px;
+}
+
+.copywrite{
+    padding-top: 50px;
 }
 /* footer sections end */
 
@@ -543,12 +575,13 @@ footer{
         gap: 45px;
     }
 
-    .contact-details{
+    .contact-details {
         flex-direction: column;
         text-align: center;
     }
 
-    .contact-details, .contact-form{
+    .contact-details,
+    .contact-form {
         margin-top: 30px;
     }
 }
