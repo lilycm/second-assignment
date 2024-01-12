@@ -151,7 +151,7 @@ main {
 .about-section .about-detail .about-photo .img3 img {
     position: absolute;
     bottom: 120px;
-    left: -80px;
+    left: -110px;
 }
 
 .about-section .about-detail .about-info .span1 {
@@ -159,7 +159,7 @@ main {
 }
 
 
-.about-section .about-detail .about-info h2{
+.about-section .about-detail .about-info h2 {
     color: #032027;
     font-size: 28px;
     font-weight: 600;
@@ -167,11 +167,54 @@ main {
 }
 
 
-.about-section .about-detail .about-info h2 .span2{
+.about-section .about-detail .about-info h2 .span2 {
     color: #08C573;
     font-size: 28px;
     font-weight: 600;
 }
+
+
+
+
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.about-images .about-img1,
+.about-img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.about-img1 {
+    border-radius: 8px;
+    background: rgba(255, 73, 116, 0.05);
+    padding: 30px;
+    margin: 24px 0px;
+}
+
+.about-img2 {
+    border-radius: 8px;
+    background: rgba(8, 197, 115, 0.05);
+    padding: 30px;
+    margin: 24px 0px;
+}
+
+.about-btn {
+    width: 150px;
+    border-radius: 30px;
+    margin: 30px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
 /* about section end */
 
 
@@ -180,6 +223,10 @@ main {
 /* media query start for small device */
 
 @media screen and (max-width: 576px) {
+    main {
+        padding: 0px;
+    }
+
     .header {
         margin: 0 auto;
     }
@@ -189,6 +236,7 @@ main {
         display: flex;
         flex-direction: column;
         text-align: center;
+        padding: 0;
     }
 
     .header .header-banner {
@@ -196,14 +244,63 @@ main {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 550px;
-        width: 100%;
+        height: auto;
         border-radius: 16px;
+        margin: 0;
     }
 
     .header .header-banner .header-detail {
         color: #fff;
         width: 100%;
-        padding: 0;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .header .header-banner .header-detail h2{
+        width: 400px;
+        font-size: 40px;
+    }
+
+    .header .header-banner .header-detail p{
+        width: 350px;
+        font-size: 16px;
+    }
+
+    .about-section {
+        padding: 40px 20px;
+    }
+
+    .about-detail {
+        flex-direction: column;
+    }
+
+    .about-detail .about-info {
+        width: 100%;
+        text-align: left;
+    }
+
+    .about-detail .about-photo .img2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-detail .about-photo img{
+        width: 100%;
+    }
+
+    .about-images {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .about-section .about-detail .about-photo .img2 {
+        bottom: -40px;
+        left: -20px;
+        width: 120px;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .about-photo .img2 img{
+        width: 50%;
     }
 }
