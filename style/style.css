@@ -116,14 +116,10 @@ main{
 .about-section .about-detail .about-photo{
     position: relative;
 }
-
 .about-section .about-detail .about-photo .img1{
-    background: url('../images/Polygon\ 1.png');
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: contain;
+    z-index: 5;
+    position: relative;
 }
-
 
 .about-section .about-detail .about-photo .img2{
     background: #08C573;
@@ -139,7 +135,7 @@ main{
     position: absolute;
     bottom: -50px;
     left: -80px;
-    z-index: 1;
+    z-index: 10;
 
 }
 
@@ -148,5 +144,43 @@ main{
     display: block;
 }
 
+.about-section .about-detail .about-photo .img3 img{
+   position: absolute;
+   bottom: 120px;
+   left: -80px;
+}
+
+
 
 /* about section end */
+
+
+
+
+/* media query start for small device */
+
+@media screen and (max-width: 576px) {
+    .header{
+        margin: 0 auto;
+    }
+    .header nav, ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header .header-banner{
+        background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%), url('../images/bg1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 550px;
+        width: 100%;
+        border-radius: 16px;
+    }
+    .header .header-banner .header-detail{
+        color: #fff;
+        width: 100%;
+        padding: 0;
+    }
+}
