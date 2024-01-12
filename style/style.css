@@ -316,12 +316,13 @@ main {
 .contact-sec .contact-details {
     background-image: url('../images/Ellipse\ 1.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 90%;
+    background-position: top center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-radius: 16px;
     border: 1px dashed rgba(8, 197, 115, 0.50);
-    padding: 90px;
+    padding: 20px;
 }
 
 .contact-sec .contact-details .contact-detail h4 {
@@ -352,7 +353,7 @@ main {
     font-weight: 400;
 }
 
-.number-btn {
+.number-btn{
     border: none;
     border-radius: 30px;
     background: #08C573;
@@ -361,6 +362,44 @@ main {
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.contact-form, .contact-detail{
+    padding: 0px 10px;
+
+}
+
+
+.contact-form h4{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.contact-form form input{
+    width: 90%;
+    padding: 18px;
+    margin: 15px 0px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #102B32;
+}
+
+.contact-form form .contact-btn{
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #08C573;
+    padding: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-form form .contact-btn button{
+    color: #08C573;
+    font-size: 20px;
+    font-weight: 600;
+    background: none;
+    cursor: pointer;
+    border: none;
 }
 
 /* contact section end */
