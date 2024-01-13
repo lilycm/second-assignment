@@ -247,9 +247,6 @@ main {
     font-weight: 600;
 }
 
-
-
-
 .service-section .servcie-details {
     margin-top: 45px;
     display: grid;
@@ -472,7 +469,7 @@ footer {
         padding: 0;
     }
 
-    .header .header-banner {
+    .header .header-banner{
         background: linear-gradient(90deg, #032027 0%, rgba(21, 21, 21, 0.00) 129.32%), url('../images/bg1.jpg');
         background-position: center;
         background-repeat: no-repeat;
@@ -482,19 +479,18 @@ footer {
         margin: 0;
     }
 
-    .header .header-banner .header-detail {
+    .header .header-banner .header-detail{
         color: #fff;
-        width: 100%;
+        width: 90%;
         padding: 20px;
         margin-top: 30px;
     }
 
-    .header .header-banner .header-detail h2 {
-        width: 400px;
+    .header .header-banner .header-detail h2{
         font-size: 40px;
     }
 
-    .header .header-banner .header-detail p {
+    .header .header-banner .header-detail p{
         width: 350px;
         font-size: 16px;
     }
@@ -507,9 +503,10 @@ footer {
         flex-direction: column;
     }
 
-    .about-detail .about-info {
-        width: 100%;
+    .about-detail .about-info{
+        width: 90%;
         text-align: left;
+        padding: 0px 20px;
     }
 
     .about-detail .about-photo .img2 {
@@ -528,7 +525,7 @@ footer {
 
     .about-section .about-detail .about-photo .img2 {
         bottom: -40px;
-        left: -20px;
+        left: 10px;
         width: 120px;
         height: 120px;
         padding: 20px;
